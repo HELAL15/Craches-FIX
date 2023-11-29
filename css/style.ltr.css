@@ -1,0 +1,42 @@
+body{
+  direction: ltr !important;
+}
+
+.navbar .nav-link::after {
+  right: unset !important;
+  left: 7px !important;
+}
+.navbar .nav-link::before {
+  right: unset !important;
+  left: 38px !important;
+}
+
+.services .service:hover img {
+  transform: rotate(-35deg) !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  float: left;
+}
+
+
+.accordion-button::after {
+  margin-left: auto !important;
+  margin-right: unset !important;
+}
+
+.single-service .item .caption p::before {
+  right: unset !important;
+  left: -2rem !important;
+}
+
+
+.single-service .item .caption p::after {
+  left: -2rem;
+  right: unset !important;
+}
+
+.single-service .item .caption p {
+  margin-left: unset !important;
+  margin-left: 2rem;
+}
